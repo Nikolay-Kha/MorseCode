@@ -1,0 +1,10 @@
+#include "Res/mainwndDlg.rc"
+#include "Res/aboutDlg.rc"
+#include "Res/optionDlg.rc"
+#include "Res/MorseRes.rc"
+#include "Res/menuMnu.rc"
+#include "Res/wndDlg.rc"
+#include "Res/mprMnu.rc"
+#include "Res/MorseVer.rc"
+
+1 24 DISCARDABLE "xp.xml"

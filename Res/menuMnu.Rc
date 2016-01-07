@@ -1,0 +1,34 @@
+#define IDR_MENU 10000
+#define IDM_1 1011
+#define IDM_2 1005
+#define IDM_3 1010
+#define IDM_4 1003
+#define IDM_5 1012
+#define IDM_6 1002
+#define IDM_7 1008
+#define IDM_8 1009
+#define IDM_9 1007
+#define IDM_654 1014
+#define IDM_45 1013
+#define IDM_10 1006
+#define IDM_11 1004
+IDR_MENU MENUEX
+BEGIN
+  POPUP "File",IDM_1
+  BEGIN
+    MENUITEM "Open\tF3",IDM_2
+    MENUITEM "Save\tF4",IDM_3
+    MENUITEM "Exit",IDM_4
+  END
+  POPUP "Transmit",IDM_5
+  BEGIN
+    MENUITEM "From begin\tF5",IDM_6
+    MENUITEM "From select\tF6",IDM_7
+    MENUITEM "Selected\tF7",IDM_8
+    MENUITEM "Stop\tF8",IDM_9
+    MENUITEM "Clean",IDM_654
+  END
+  MENUITEM "Receiver",IDM_45
+  MENUITEM "Settings",IDM_10
+  MENUITEM "About",IDM_11
+END
