@@ -5,8 +5,11 @@ written with x86 assembler. It uses sound card for sending and receiving Morse
 Code. You can setup different length of dots, dashes, pauses and tone frequency.
 ![](screenshot.jpg?raw=true) 
 
+# Download prebuilt binary
+https://github.com/Nikolay-Kha/MorseCode/releases
+
 # Building from sources
 Project can be openned with RadASM IDE and compiled with MASM32.
 
 # Author
-Khabarov Nikolay (c) 2005
+Nikolay Khabarov (c) 2005
